@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --light: #eeeded;
+    --orange: #FFA16C;
+}
+
+body{
+    background: var(--orange);
+}
+
+.btn{
+    padding: 6px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--orange);
+    color: white;
+    background: var(--orange);
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    background: white;
+    color: var(--orange);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 25px auto 15px auto;
+    background: white;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+.title{
+    text-transform: capitalize;
+}
+
+.header .header__icon{
+   position: relative;
+}
+
+
+.header .header__icon__amount{
+   background: #ffa26cc7;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 24px;
+   width: 24px;
+   border-radius: 50%;
+   position: absolute;
+   top: 28px;
+   right: 155px;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 5px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.products{
+    background: var(--light);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.products .product__card{
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .product__card:hover{
+     background: white;
+    transition: 0.7s;
+}
+
+.products .product__card .image img{
+height: 200px;
+width: 150px;
+}
+
+.product__card .card-main{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.card-main .cardTitle{
+margin: 10px 0;
+font-weight: bold;
+}
+
+.card-main .cardDescription{
+    margin: 10px 0 ;
+    opacity: 0.7;
+}
+
+.card-main .cardPrice{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cart{
+    padding: 10px;
+    background: white;
+    border: 1px solid var(--light);
+    border-radius: 10px;
+}
+
+.app_card{
+    display: flex;
+    justify-content: space-between;
+    background: var(--light);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.app_card .image img{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.card-main{
+margin-left: 5px;
+text-align: center;
+}
