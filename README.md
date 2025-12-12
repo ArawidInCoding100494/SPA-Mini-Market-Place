@@ -1,16 +1,37 @@
-# React + Vite
+# SPA Shop — Vanilla JS + React Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Ism
+Abdurashid Abdumajidov (yoki sizning ismingiz)
 
-Currently, two official plugins are available:
+## Loyihaning maqsadi
+Kichik SPA: products ro‘yxatini Vanilla JS yordamida API’dan yuklash va Cart funksiyasini React bilan qilish.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Texnologiyalar
+- Vanilla JavaScript (products qismi)
+- React (Cart qismi) — useState, useEffect
+- Vite (bundler, dev server)
+- CSS (custom)
+- LocalStorage
 
-## React Compiler
+## Vazifa qancha vaqt oldi
+Taxminan: 3-6 soat (API bilan ishlash, React bo‘limini sozlash va UI tuzatish).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Qiyin bo‘lgan joylar
+- Vanilla JS va React o‘rtasida ma’lumot almashinuvi: men localStorage + CustomEvent (`cartUpdated`) ishlatdim.
+- LocalStorage bilan sinxronlash va `storage` event larini to‘g‘ri tutish.
+- CSS: responsive layout va tugma hover/active effektlarini mustaqil yozishga ulgurmadim.
 
-## Expanding the ESLint configuration
+## Loyihani ishga tushurish
+1. `npm install`
+2. `npm run dev`
+3. Browserda `http://localhost:5173` oching.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Ekran rasmlari
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/230648fe-fd01-4784-be7e-a34e513fb260" />
+
+
+## Demo
+
+
+## GitHub repository
+
