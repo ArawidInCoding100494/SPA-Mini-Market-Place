@@ -31,7 +31,7 @@ Taxminan: 3-6 soat (API bilan ishlash, React bo‘limini sozlash va UI tuzatish)
 
 
 ## Demo
-
+https://spa-mini-market-place.vercel.app/
 
 ## GitHub repository
-
+https://github.com/ArawidInCoding100494/SPA-Mini-Market-Place
