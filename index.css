@@ -103,6 +103,7 @@ width: 150px;
 .product__card .card-main{
     margin-left: 20px;
     padding: 10px;
+    text-align: start;
 }
 
 .card-main .cardTitle{
